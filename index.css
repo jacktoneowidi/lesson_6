@@ -13,6 +13,11 @@
     height: 400px;
     margin: 20px auto;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row ;
+
+
 }
 .child-1{
     width: 50px;
@@ -30,6 +35,11 @@
     height: 50px;
     background-color:brown ;
     margin: 5px;
+    font-family: "Oswald", sans-serif;
+    justify-content: center;
+    align-items: center;
+    display:flex ;
+   
 
 }
 .child-3{
@@ -37,6 +47,10 @@
     height: 50px;
     background-color: brown;
     margin: 5px;
+    font-family: "Oswald", sans-serif;
+    display:flex ;
+    align-items:center ;
+    justify-content: center;
     
 }
 .child-4{
@@ -44,10 +58,16 @@
     height: 50px;
     background-color: brown;
     margin: 5px;
+    font-family: "Oswald", sans-serif;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
 }
 .child-5{
     width: 50px;
     height: 50px;
     background-color: brown;
     margin: 5px;
+    font-family: "Oswald", sans-serif;
+    display:flex ;
 }
