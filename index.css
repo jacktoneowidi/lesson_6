@@ -1,30 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&family=Mr+Dafoe&family=Oswald:wght@200..700&family=Pompiere&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
 .container{
-    width: 100%;
-    height: 500px;
-    background-color: brown;
-
-}
-.div-1{
     background-color: burlywood;
-    width: 100px;
-    height: 100px;
+    border:  2px solid;
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    display: flex;
+}
+.child-1{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    display:flex ;  
+    font-family: "Oswald", sans-serif;
 
 }
-.div-2{
-    background-color: rgb(0, 0, 0);
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    left: 100px;
-    position: sticky;
-    top: 200px;
+.child-2{
+    width: 50px;
+    height: 50px;
+    background-color:brown ;
+    margin: 5px;
+
 }
-.div-3{
-    background-color: rgb(140, 0, 255);
-    width: 100px;
-    height: 100px;
-    position: sticky;
-    top: 100px;
+.child-3{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    margin: 5px;
     
-    
+}
+.child-4{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    margin: 5px;
+}
+.child-5{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    margin: 5px;
 }
